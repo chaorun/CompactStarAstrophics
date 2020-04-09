@@ -77,17 +77,20 @@ $P=\frac{\rho_0}{\mu mu_u}kT$
   - $=3\times 2 \times \frac{1}{2}kT *N_{粒子数}$  
 
 $-W=2U$  
+$W+2U=0$  
 $\bar{T}\propto\frac{M}{R}, \bar{\rho}\propto \frac{M}{R^3}$  
+
 * $\Delta P_e \sim <(\vec{P_1}-\vec{P2})^2>^(1/2)=<2\vec{P_1}^2>^{1/2}$
   - $\sim (6m_ek\bar{T})^{1/2}$
 
 $\frac{3}{2}k\bar{T}=\frac{P_1^2}{2m_e^2}$  
-$\bar{T}\propto(\frac{12meGMm_u \mu}{7R})^{1/2}$  
+
+$\Delta P_e\propto(\frac{12meGMm_u \mu}{7R})^{1/2}$  
 $(\Gamma \sim 5/3)$
 
-$\Delta q_e\sim(\frac{\mu_e m_u}{\rho_0})^{1/3}$
-$\Delta q_e\sim(\frac{4\pi \mu_e}{\rho_0})^{1/3}$  
-没抄完这一页
+$\Delta q_e\sim(\frac{\mu_e m_u}{\rho_0})^{1/3}$  
+$\Delta q_e\sim(\frac{4\pi \mu_e m_u R^3}{3M})^{1/3}$   
+$(\Delta p_e \Delta q_e)^3\sim\frac{4\pi}{3}(\frac{12\mu}{7})^{3/2}[(Gm_eR)^{1/2}m_u^{5/6}M^{1/6}])$
 
 代入太阳质量的
 
