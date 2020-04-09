@@ -23,9 +23,18 @@ Eddington 1926
    - 验证了广义相对论
    - $\rho ~2000 \rho_{白金}$
   
-Dirac 1926.08 ~ Fermi Dirac 分布  
-费米字在量子态的概率分布只能小于等于1  
+* Dirac 1926.08 ~ Fermi Dirac 分布  
+   - 费米字在量子态的概率分布只能小于等于1  
+* Fowler 1926.12 
+   - 满足Fermi Dirac分布的压强：电子简并压强 ；与引力平衡  
+* Chandrasekhar 1930  
+   - 必须要考虑狭义相对论  
+   - 电子的能量$E_e=\sqrt{p^2c^2+m^2_e c^4}$
+   - $P_e\propto \rho^{4/3}$
+* Chandrasekhar 1930   极限  
+   - $M_{ch}\sim 1.4M_{\odot}$  
+* Landau 1932 提出中子星  
+   -  1967年发现脉冲星  
+* Kaplan 1949 广义相对论的效应
+   -  白矮星的质量半径关系M-R 
 
-Fowler 1926.12 
-满足Fermi Dirac分布的压强：电子简并压强
-与引力平衡
