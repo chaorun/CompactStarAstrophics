@@ -113,3 +113,29 @@ $f=\frac{1}{e^{(\epsilon_e-\mu)/kt}+1}$ 注意+1和-1,+1是费米狄拉克分布
 * f=
   - 0 $\epsilon_e>\mu$
   - 1 $\epsilon_e<\mu$
+
+
+$n_e=\frac{2}{}\int_0^{\infinity} 4\pi P_e^2 dp V$  
+$\mu=\sqrt{P_F^2c^2=m_e^2c^4}$  
+
+$P_F$ Fermi动量
+$\mu=E_F$ Fermi能   
+$n_e=\frac{2}{h^3}\int_0^{\infinity} 4\pi P_e^2 dp$  
+$n_e=\frac{8\pi}{h^3}P_F^3$  
+$\hbar=\frac{h}{2\pi}$  
+$n_e=\frac{P_F^3}{3\pi^2\hbar }$  
+$P_F=(3\pi^2n_e)^{1/3}\hbar$
+
+$X=\frac{P_F}{m_ec}$  
+$n_e=\frac{1}{3\pi^2\lambda_e^3}X^3$  
+$\lambda_e$ Compton 波长  
+$\lambda_e=\frac{hbar}{m_ec}$  
+压强
+$P_e=\frac{1}{3}\frac{2}{h^3}\int^{P_F}_0\frac{p^2 c^2 4\pi p^2}{(p^ 2 c^2+m_e^2c^4)^{1/2}}dp$
+
+$\Phi(x)=\frac{1}{8\pi^2} x(1+x^2)^{1/2} (2x^{2/3}-1)+ln[x+(1+x^2)^{1/2}]$
+
+能量密度
+$\epsilon_e=\frac{2}{h^3}\int_0^{P_F}(p^2c^2+m^2_ec^4)^{1/2}4\pi p^2dp$    
+$\epsilon_e=\frac{m_e c^2}{\hbar^3_e}\Chi(x)$  
+$\Chi(x)=\frac{1}{8\pi^2}(x(1+x^2)^{1/2}(1+2x^2)-ln[x+(1+x^2)^{1/2}])$
