@@ -33,8 +33,11 @@ Eddington 1926
    - $P_e\propto \rho^{4/3}$
 * Chandrasekhar 1930   极限  
    - $M_{ch}\sim 1.4M_{\odot}$  
-* Landau 1932 提出中子星  
+* Landau 1932 提出中子星 
+   -  发现中子 
    -  1967年发现脉冲星  
 * Kaplan 1949 广义相对论的效应
    -  白矮星的质量半径关系M-R 
+
+## 简并的开始
 
