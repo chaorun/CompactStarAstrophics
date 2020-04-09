@@ -23,3 +23,9 @@ Eddington 1926
    - 验证了广义相对论
    - $\rho ~2000 \rho_{白金}$
   
+Dirac 1926.08 ~ Fermi Dirac 分布  
+费米字在量子态的概率分布只能小于等于1  
+
+Fowler 1926.12 
+满足Fermi Dirac分布的压强：电子简并压强
+与引力平衡
