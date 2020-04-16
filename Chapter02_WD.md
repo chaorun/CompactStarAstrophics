@@ -282,3 +282,56 @@ $\Gamma =\frac{4}{3}$
 $P_C=\frac{2}{3}\pi G\rho^2 R^2_{WD}=K_{4/3}\rho^{4/3}$  
 $\rho^{2/3}R^{2}_{WD}=const$   
 $M=const$
+
+Ia型超新星爆发：  
+SNIa  $Lpeak\sim const$ 可以作为标准烛光  
+$Lpeak \sim \Delta m (15 day)$相关性  
+
+$d_L=(\frac{L_{Peak}}{4\pi F_\nu})^{1/2}$   
+还需要考虑磁场转动：  
+Das & Mukhopedhyay 2013 PRL 110 071102   
+Nitgananda& Konar arxiv 1306.1625  
+超新星观测：  
+Howell et al. 2006 Nature 443,308   
+SN2003 fg, Z~ 0.244  
+$M_{WD}\sim 2.1M_{\odot}$
+Super Chandrasekhar :
+1. 组分不同
+2. WD+WD并和
+3. 磁场
+4. 转动
+   
+
+## 五、WD的冷却
+表面：非简并  
+内部：简并状态 ，温度是均匀的  
+变化位置的密度和温度记为$\rho_* T_*$  
+证明这部分影响不大：  
+辐射压对r的导数：$\kappa$:opacity   
+$\frac{dP_{rad}}{dr}=-\frac{\kappa\rho}{c}F_{rad}$  
+$P_{rad}=\frac{1}{3}aT^4$  
+$\frac{dT}{dr}=-\frac{3}{4ac}\frac{\kappa\rho}{T^3}\frac{L}{4\pi r^2}$  
+$\frac{dP}{dr}=-\frac{Gm(r)}{r^2}\rho$  
+$P=\frac{k\rho T }{\mu m_u}$  
+$\mu:=\frac{A}{Z+1}$  
+$\mu_e=\frac{A}{Z}$  
+$Pdp=\frac{4ac}{3}\frac{4\pi GM}{\kappa_0 L}\frac{k}{\mu m_u}T^{7.5}dT$   
+Kramer's opacty:  
+$\Kappa = \kappa_0 \rho T^{-3.5}$  
+积分到表面P=0 T=0
+$\rho=(\frac{2}{8.5}\frac{4ac}{3}\frac{4\pi GM}{\kappa_0 L}\frac{\mu m_e}{\kappa})^{-1/2}T^{3.25}$   
+
+$\kappa_0 =4.34\times^{24} Z(1+X)$   这里Z是天文金属丰度 X是氢丰度
+
+非简并压强=简并电子压强
+
+$\frac{\rho_* k T_*}{\mu_e m_u}=1.0\times10^{13}(\frac{\rho_*}{\mu_e})^{5/3}$  
+$→\rho_{*}=(2.4\times10^{-8}g/cm^{3}\mu_eT^{3/2}$   
+$L=(5.7\times10^{5})\frac{\mu}{\mu_e^2}\frac{1}{Z(1+X)}\frac{M}{M_{\odot}}T_*^{3.5}erg/s$  
+当X=0 Y=0.9 Z=0.1 $M=M_{\odot }$    
+$T_* \sim 10^6 - 10^7 K $    
+$L\sim 10^{-2} - 10^{-5} L_{\odot}$  
+$K=(2\times10^6)\frac{M}{M_{⊙}}T_*^{3.5} erg/s$ 
+
+$\rho_* \leq 10^3 g/cm^3 \ll \rho_c$  
+WD的表面对结构无影响 不影响M-R关系
