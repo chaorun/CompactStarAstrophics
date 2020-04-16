@@ -258,7 +258,7 @@ $E_F=c/R^2$
 $E=E_F+E_G=\frac{c}{R^2}-\frac{GNm_B^2}{R}$  
 $N_1=(\frac{\hbar c}{Gm_B^2})^{1/2}=2\times10^{57}$   
 $M_{max}=N_1m_B\sim1.5 M_{\odot}$  
-
+![Slide1](Pictures/2020-04-16_05.PNG)
 第三种推导  
 用流体静力学方程 
 $\rho_c=Constant$  
