@@ -317,7 +317,7 @@ $\mu:=\frac{A}{Z+1}$
 $\mu_e=\frac{A}{Z}$  
 $Pdp=\frac{4ac}{3}\frac{4\pi GM}{\kappa_0 L}\frac{k}{\mu m_u}T^{7.5}dT$   
 Kramer's opacty:  
-$\Kappa = \kappa_0 \rho T^{-3.5}$  
+$\kappa = \kappa_0 \rho T^{-3.5}$  
 积分到表面P=0 T=0
 $\rho=(\frac{2}{8.5}\frac{4ac}{3}\frac{4\pi GM}{\kappa_0 L}\frac{\mu m_e}{\kappa})^{-1/2}T^{3.25}$   
 
@@ -340,7 +340,7 @@ WD的表面对结构无影响 不影响M-R关系
 简单的方法：  
 假定比热$c_v=\frac{3}{2}k$
 $U=\frac{3}{2}kT \times \frac{M}{A m_u}$ 
-$L=\frac{dU}{dt}:= CMT^{5/3}$  
+$L=\frac{dU}{dt}\equiv CMT^{5/3}$  
 $CM_{\odot}=2\times10^6 erg/s$  
 $\frac{dU}{dt}=L$  
 $\frac{d}{dt}(\frac{3kT/2}{Am_u}=CT^{3.5}$   
@@ -354,3 +354,37 @@ $\tau\propto (\frac{L}{M})^{-5/7}$
 
 细致的方法：
 
+$L\leq 10^{-4}L_{\odot}$上述的简单方法就不行了
+
+结晶和熔化温度：
+$\Gamma\equiv\frac{(Ze)^2}{r_i}\frac{1}{kT}=\frac{Colomb Energy}{Heat Energy}$  
+
+$n_i\times\frac{4}{3}\pi r_i^3=1$  
+
+$\frac{<(\delta_i)^2>}{r_i^2}\sim\frac{1}{16}$    
+
+熔点$\Gamma_m=75$
+
+1. 熔化温度： $Tm=\frac{Ze^2}{r_ik\Gamma_m}=2\times10^3\rho^{1/3}Z^{5/3} K$开尔文
+2. Deby温度: $\theta_D$
+    固定频率  $\nu_1→C_{\nu}$  
+    上限$\hbar\Omega_p=k\theta_D$  
+   $\theta_D=\frac{\hbar}{k}(\frac{4\pi n_z Z^2e^2}{m_i})^{1/2}=4\times10^3\rho^{1/3} K$
+3. 气化温度： $T_g$
+    $<(\delta_i)^2>\sim r_i^2$    
+    $T_g\sim16T_m\sim3\times10^16$
+
+不同温度下的比热
+1）$T\gg T_g$, Maxwell Boltzmann 分布
+$C_ν\sim \frac{3}{2}K$   
+2) $\theta_D\ll T \ll T_g$  
+   $C_\nu \sim \frac{3}{2} k +\frac{3}{2}k \simeq 3k$  
+3) $T\ll theta_D$  
+   $C_\nu = \frac{16\pi^4}{5}(\frac{T}{\theta_D})^3k$  
+
+1) $T\gg T_g$ $C_\nu=\frac{3}{2}k$
+    $\tau =\frac{3}{5}\frac{kTM}{Am_uL}$
+2) $Tg \gg T \gg \theta_g$
+    $\tau \frac{6}{5}\frac{kTM}{Am_uL}$
+3) $T\ll \theta_D$  
+    $\tau=\frac{32\pi^4}{5}(\frac{T}{\theta_D})^3[(\frac{T_0}{T})^{1/2}-1] \times\frac{MkT}{Am_uL}$
