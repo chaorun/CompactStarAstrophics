@@ -174,8 +174,111 @@ $K=3^{1/3}\pi^{2/3}/4 * \frac{\hbar}{m_B^{4/3}\mu_e^{4/3}}$
 $K=\frac{1.2435*10^{15}}{\mu_e^{4/3}cgs}$
 
 ### WD的结构
+![Slide1](Pictures/2020-04-16_02.PNG)  
 
 $\frac{dP}{dr}=-\frac{Gm(r)}{r^2}\rho(r)$  
 $m(r)=\int_0^{r}4\pi r^2 \rho(r) dr$  
 $\frac{1}{r^2}\frac{d}{dr}(\frac{r^2}{\rho}\frac{dP}{dr})=-4\pi G\rho$  
-$P=K\rho^{\Gama}$
+$P=K\rho^{\Gamma}$   
+$\Gamma=1+\frac{1}{n}$  
+令$\rho=\rho_c \theta^n$, $\rho_c$中心密度  
+$r=a\xi$  
+$a=[\frac{(n+1)K\gamma_c^{1/n-1}}{4\pi G}]^{1/2}$  
+Lane Emden $\frac{1}{\xi^2}\frac{d}{d\xi}(\xi^2\frac{d \theta}{d\xi}=-\theta^n$  
+
+边界条件：
+   * $\theta(0)=1$
+   * $\theta'(0)=0$
+
+$r→0$, $m(r)=\frac{4}{3}\pi r^3\rho_c$  
+
+$\frac{dP}{dr}|_{r→0}=\frac{Gm(r)}{r^2}\rho→0$  
+$\frac{dP}{dr}|_{r→0}→$
+
+![Slide1](Pictures/2020-04-16_03.PNG)  
+$R=a\xi_1=[\frac{(n+1)K}{4\pi G }]^{1/2} \rho_c^{(1-n)/2n} \xi_1$
+$M=\int_0^{R}4\pi r^2\rho dr$  
+$M=4\pi a^3\rho_c\int_0^{\xi_1}\frac{d}{d\xi}(\xi^2\frac{d\theta}{d\xi})d\xi$  
+$M=4\pi a^3\rho_c\int_0^{\xi_1}\frac{d}{d\xi}(\xi^2\frac{d\theta}{d\xi})d\xi$
+
+$\Gamma=\frac{5}{3}$, $n=\frac{3}{2}$
+
+$\xi_1=3.65375$,$\xi_1^2|\theta'(\xi_1)|=2.71406$
+
+$\Gamma=\frac{4}{3}$, $n=3$
+
+$\xi_1=6.89685$,$\xi_1^2|\theta'(\xi_1)|=2.0824$
+
+当$\Gamma=\frac{4}{3}$ 大质量WD  
+$R=3.347\times10^4(\frac{\rho_c}{10^6 g/cm^3})^{-1/3}(\frac{\mu_e}{2})^{-2/3}km$  
+$M=1.457(\frac{2}{\mu_e})^2M_\odot$  
+当$\Gamma=\frac{5}{3}$ 小质量WD  
+$R=1.122\times10^4(\frac{\rho_c}{10^6 g/cm^3})^{-1/6}(\frac{\mu_e}{2})^{-5/6}km$  
+$M=0.4964(\frac{\rho_c}{10^6 g/cm^3})^{-1/2}(\frac{2}{\mu_e})^{-5/2}M_\odot$  
+![Slide1](Pictures/2020-04-16_04.PNG)
+$M=0.7011(\frac{R}{10^4km})^{-3})(\frac{\mu_e}{2})^{-5}M_\odot$
+
+当$\Gamma=\frac{4}{3}$  
+Chandrasekhar极限 $M=1.457(\frac{2}{\mu_e})^2M_\odot$  
+
+Chandrasekhar极限的第二种推导方法：Landau(1932)  
+Landau能级  
+能量基态原理  
+考虑N个费米子在半径为R的球体内  $n=\frac{N}{R^3}$  
+每个费米字的体积$\sim \frac{1}{n}$  
+尺度$\sim n^{-1/3}$  
+Heisenberg原理：  
+动量*尺度 近似 普朗克常数
+
+$p*n^{-1/3}\sim\hbar$  
+$E_F\sim p_c\sim \hbar n^{1/3} c\sim \frac{\hbar cN^{1/3}}{R}$  
+
+引力能：
+$E_G\sim-\frac{GM(m_e+m_p)}{R}$   
+
+$M=N(m_e+m_p)\sim Nm_p$
+质子质量$m_e$用重子质量$m_B$代替
+
+$E_G\sim-\frac{Gm_B^2N}{R}$  
+总能量$E=E_G+E_F\sim \frac{\hbar cN^{1/3}}{R}-\frac{GM(m_e+m_p)}{R}$ 
+
+
+令E=0  
+$\frac{\hbar cN^{1/3}}{R}-\frac{GM(m_e+m_p)}{R}=0$
+$N_1=(\frac{\hbar c}{Gm_B^2})^{1/2}$   
+1） 当N>$N_1$ E<0;  
+   * $R↓,E\downarrow$ 无基态，总是塌缩的   
+
+2） 当N<$N_1$ 存在稳定态 E>0:
+      $R↑,E\downarrow$ 
+
+$p_F<m_ec$非相对论  
+$E_F\sim\frac{p_F^2}{2m_e}∝\frac{1}{R^2}$  
+$E_F=c/R^2$  
+$E=E_F+E_G=\frac{c}{R^2}-\frac{GNm_B^2}{R}$  
+$N_1=(\frac{\hbar c}{Gm_B^2})^{1/2}=2\times10^{57}$   
+$M_{max}=N_1m_B\sim1.5 M_{\odot}$  
+
+第三种推导  
+用流体静力学方程 
+$\rho_c=Constant$  
+$\frac{dP}{dr}=-\frac{GM_r\rho}{r^2}=-\frac{G(\frac{4}{3}\pi r^3\rho)\rho}{r^2}$  
+$=-\frac{4}{3}\pi G\rho r$
+从表面积分到任意r  
+$P(r)=\frac{2}{3}\pi G \rho^2(R_{WD}^2-r^2)$  
+当$r→0$  
+$P_c=\frac{2}{3}\pi G \rho^2 R^2_{WD}$
+
+
+1)小质量白矮星
+$\Gamma =\frac{5}{3}$  
+$P_C=\frac{2}{3}\pi G\rho^2 R^2_{WD}=K_{5/3}\rho^{5/3}$  
+$→\rho^{1/3}R^2_{WD}=Constant$  
+$\rho=\frac{M}{\frac{4}{3}\pi R^3_{WD}}$  
+所以小质量白矮星  
+$R^3_{WD}M_{WD}=Constant$  
+2）大质量的
+$\Gamma =\frac{4}{3}$  
+$P_C=\frac{2}{3}\pi G\rho^2 R^2_{WD}=K_{4/3}\rho^{4/3}$  
+$\rho^{2/3}R^{2}_{WD}=const$   
+$M=const$
