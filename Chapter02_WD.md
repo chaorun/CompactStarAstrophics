@@ -118,12 +118,12 @@ $f=\frac{1}{e^{(\epsilon_e-\mu)/kt}+1}$ 注意+1和-1,+1是费米狄拉克分布
   - 1 $\epsilon_e<\mu$
 
 
-$n_e=\frac{2}{}\int_0^{\infinity} 4\pi P_e^2 dp V$  
+$n_e=\frac{2}{}\int_0^{\infty} 4\pi P_e^2 dp V$  
 $\mu=\sqrt{P_F^2c^2=m_e^2c^4}$  
 
 $P_F$ Fermi动量
 $\mu=E_F$ Fermi能   
-$n_e=\frac{2}{h^3}\int_0^{\infinity} 4\pi P_e^2 dp$  
+$n_e=\frac{2}{h^3}\int_0^{\infty} 4\pi P_e^2 dp$  
 $n_e=\frac{8\pi}{h^3}P_F^3$  
 $\hbar=\frac{h}{2\pi}$  
 $n_e=\frac{P_F^3}{3\pi^2\hbar }$  
@@ -142,3 +142,40 @@ $\Phi(x)=\frac{1}{8\pi^2} x(1+x^2)^{1/2} (2x^{2/3}-1)+ln[x+(1+x^2)^{1/2}]$
 $\epsilon_e=\frac{2}{h^3}\int_0^{P_F}(p^2c^2+m^2_ec^4)^{1/2}4\pi p^2dp$    
 $\epsilon_e=\frac{m_e c^2}{\hbar^3_e}\Chi(x)$  
 $\Chi(x)=\frac{1}{8\pi^2}(x(1+x^2)^{1/2}(1+2x^2)-ln[x+(1+x^2)^{1/2}])$
+
+### 2020-04-16 
+
+![Slide1](Pictures/2020-04-16_01.PNG)  
+
+#### $x\ll 1$ 非相对论情形   
+$\phi(x)→\frac{1}{15\pi^2}(x^5-x^7+\frac{5}{24}x^9+x...)$  
+$\chi(x)→\frac{1}{3\pi^2}(x^3+\frac{3}{10}x^5-\frac{3}{56}x^7...）$  
+#### $x\gg 1$ 相对论  
+$\phi(x)→\frac{1}{12\pi^2}(x^4-x^2+\frac{3}{2}ln(2x)...)$  
+$\chi(x)→\frac{1}{4\pi^2}(x^4+x^2-\frac{1}{2}ln(2x)...）$  
+ 
+####  令状态方程 $P=K\rho_0^{\Gamma}$
+
+1)非相对论
+$\rho_0\ll 10^6 g/cm^3$  
+$x\ll 1$
+
+$\phi(x)→\frac{1}{15\pi^2}x^5$  
+$\rho_0\propto n_e∝ x^3$  
+$\Gamma=\frac{5}{3}$
+
+$K= \frac{3^{2/3}\pi^{4/3} }{5} \frac{\hbar^2}{m_em_b^{5/3}\mu_e^{5/3}}$  
+$=\frac{1.0036\times 10^{13}}{\mu_e^{5/3}}c.g.s$
+ii) 相对论
+$x\gg 1$
+$phi(x)→x^4/12\pi^2$  
+$\Gamma=4/3$  
+$K=3^{1/3}\pi^{2/3}/4 * \frac{\hbar}{m_B^{4/3}\mu_e^{4/3}}$  
+$K=\frac{1.2435*10^{15}}{\mu_e^{4/3}cgs}$
+
+### WD的结构
+
+$\frac{dP}{dr}=-\frac{Gm(r)}{r^2}\rho(r)$  
+$m(r)=\int_0^{r}4\pi r^2 \rho(r) dr$  
+$\frac{1}{r^2}\frac{d}{dr}(\frac{r^2}{\rho}\frac{dP}{dr})=-4\pi G\rho$  
+$P=K\rho^{\Gama}$
