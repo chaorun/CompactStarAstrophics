@@ -335,3 +335,22 @@ $K=(2\times10^6)\frac{M}{M_{⊙}}T_*^{3.5} erg/s$
 
 $\rho_* \leq 10^3 g/cm^3 \ll \rho_c$  
 WD的表面对结构无影响 不影响M-R关系
+
+
+简单的方法：  
+假定比热$c_v=\frac{3}{2}k$
+$U=\frac{3}{2}kT \times \frac{M}{A m_u}$ 
+$L=\frac{dU}{dt}:= CMT^{5/3}$  
+$CM_{\odot}=2\times10^6 erg/s$  
+$\frac{dU}{dt}=L$  
+$\frac{d}{dt}(\frac{3kT/2}{Am_u}=CT^{3.5}$   
+$\frac{3}{5}\frac{k}{A m_u}(T^{-5/2}-T_0^{-5/2})=C(t-t0)$  
+当$T\ll T_0$, $t-t_0=\tau$ 
+$T\propto t^{-2/5}$  
+$\tau = \frac{3}{5}\frac{kTM}{Am_uL}$  
+$\tau\propto (\frac{L}{M})^{-5/7}$ 
+当$L\sim10^{-3}L_{\odot}, \tau \sim 10^{9} yr$
+对于年老的白矮星，内部不能视为理想气体，不能用3/2k作为比热，应当是固体的比热。
+
+细致的方法：
+
