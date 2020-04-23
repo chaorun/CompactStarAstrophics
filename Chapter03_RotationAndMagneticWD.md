@@ -143,3 +143,56 @@ $I=\frac{2}{3}\frac{MR^2}{\xi_1^4|\theta'(\xi_1)|}\int_0^{\xi_1}\theta^n\xi^4d\x
 $\int_0^{\xi_1}\theta^n\xi^4d\xi=0.851$  
 $<r^2>=0.11303 R^2$  
 $\frac{T}{|w|}|_{max}=\frac{}{}=0.025$    at break up
+
+对于不可压缩流体 $\rho=const$ 
+
+$n=0, \Gamma=\infty$  
+$|w|=\frac{3}{5}\frac{GM^2}{R}$ 
+$I=\frac{2}{5}MR^2$  
+$T=\frac{1}{5}MR^2\Omega^2$  
+$\frac{T}{|w|}=\frac{1}{3}$ at break up 
+
+$\frac{T}{|w|}|_{实际}\leq\frac{T}{|w|}|_{不可压缩流体}$
+
+椭球 赤道R_1>R 质量的整体分布不受影响
+
+$\Phi=-\frac{GM}{r}$  
+离心势:沿着z轴转动  
+$\Phi_c=-\frac{1}{2}\Omega^2(x^2+y^2)=-\frac{1}{2}\Omega^2r^2sin^2\theta$  
+
+$0=\frac{1}{\rho}$
+积分后
+$h+\Phi+\Phi_c=K$
+单位质量的 焓
+
+考虑非转动的情形 $\Omega=0$  
+$K=-\frac{GM}{R}$  
+$h+\Phi+\Phi_c=K=-\frac{GM}{R}$ 
+有效势  
+$\Phi_{eff}=\Phi+\Phi_c=-\frac{GM}{r}-\frac{1}{2}\Omega^2r^2sin^2\theta$  
+在赤道r=90度
+$\Phi_{eff}=-\frac{GM}{r}-\frac{1}{2}\Omega^2r^2$  
+当$r=r_c=(GM/\Omega^2)^{1/3}$  
+$\Phi_{eff,max}=-\frac{3GM}{2r_c}$
+表面$P->0$  
+$h=\frac{\Gamma}{\Gamma-1}\frac{P}{\rho}->0$  
+$-\frac{3GM}{2r_c}=-\frac{GM}{R_1}$  
+
+$R_{1,max}=\frac{3}{2}R$  
+最大的
+$\Omega_{max}...$
+
+$\frac{T}{|w|}=[(\frac{2}{3})^{3/2}\times\frac{T}{|w|}|_{球形}]$  
+$\frac{T}{|w|}=0.544^2*0.025 =0.0074$ at break up 
+
+
+$M_{ch}=M_{ch,0}\times1.02$
+质量仅增加2% , 均匀转动 刚体
+
+3. differentially rotating 
+
+$\Omega(r)$  
+$\frac{T}{|w|}=0.14$  
+$M_{ch}=M_{ch,0}\times2.5(\frac{2}{\mu_e})^2M_{\odot}$  
+$\frac{T}{|w|}=0.26$  
+$M_{ch}=M_{ch,0}\times5.1(\frac{2}{\mu_e})^2M_{\odot}$  
