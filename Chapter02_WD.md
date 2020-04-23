@@ -388,3 +388,4 @@ $C_ν\sim \frac{3}{2}K$
     $\tau \frac{6}{5}\frac{kTM}{Am_uL}$
 3) $T\ll \theta_D$  
     $\tau=\frac{32\pi^4}{5}(\frac{T}{\theta_D})^3[(\frac{T_0}{T})^{1/2}-1] \times\frac{MkT}{Am_uL}$
+
