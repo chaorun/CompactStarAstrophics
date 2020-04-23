@@ -106,4 +106,40 @@ $I=\frac{2}{5}Ma^2$
 $M=\frac{4}{3}a^3(1-e^2)^{1/2}\rho$  
 角动量$J=I\Omega$  
 转动动能$T=\frac{1}{2}I\Omega^2$  
-$W=\frac{1}{2}\rho\int\Phi d^3x=-\frac{3}{5}(\frac{4\pi}{3})^2G\rho^2a^5\frac{sin^{-1}e}{e}(1-e^2)$  Tg
+$W=\frac{1}{2}\rho\int\Phi d^3x=-\frac{3}{5}(\frac{4\pi}{3})^2G\rho^2a^5\frac{sin^{-1}e}{e}(1-e^2)$  
+
+
+$\frac{T}{|w|}=\frac{3}{2e^2}[1-\frac{e(1-e^2)^{1/2}}{sin^{-1}e}]-1$
+ 
+## 四、 转动WD 无磁场 
+转动动能
+$T\sim M\Omega^2R^2\sim\frac{J^2}{MR^2}$  
+J守恒  
+$-\alpha_{3/2}\frac{GM^2}{R}+\kappa_{3/2}\frac{J^2}{MR^2}+\beta_{3/2}\frac{M^{5/3}}{R^2}=0$  NRD  
+$-\alpha_{3}\frac{GM^2}{R}+\kappa_{3}\frac{J^2}{MR^2}+\beta_{3}\frac{M^{4/3}}{R^2}=0$  ERD  
+求解ERD  
+$0-\alpha_{3}\frac{GM^2}{R}(1-\frac{2T}{|w|})+\beta_{3}\frac{M^{4/3}}{R^2}$
+求借M  
+$M=[\frac{\beta_3}{\alpha_3 G(1-2T/|w|)}]=M_0(1+\frac{3T}{|w|})$  
+$\frac{T}{|w|}|_{max}=0.0074$  
+$M_{ch}=1.02 M_{ch,0}$
+
+$M_{ch,0}$无旋转时的钱德拉塞卡极限
+
+证明：$\frac{T}{|w|}|_{max}\leq0.0074$ (均匀转动，n=3)
+
+1.考虑球形的对称星  
+Kepler转动(赤道) Break up
+
+$v^2=\Omega^2 R^2=\frac{GM}{R}$  
+$\Omega_{max}=(\frac{GM}{R^3})^{1/2}$  
+$W=-\frac{3(\Gamma-1)}{5\Gamma-6}\frac{GM^2}{R}$  
+当$\Gamma=\frac{4}{3}, n=3$  
+$|w|=\frac{3}{2} \frac{GM^2}{R}$  
+
+$T=\frac{1}{2}IR^2$
+$I=\int_0^M\frac{2}{3}r^2dm=\frac{2}{3}M<r^2>$
+$I=\frac{2}{3}\frac{MR^2}{\xi_1^4|\theta'(\xi_1)|}\int_0^{\xi_1}\theta^n\xi^4d\xi$  
+$\int_0^{\xi_1}\theta^n\xi^4d\xi=0.851$  
+$<r^2>=0.11303 R^2$  
+$\frac{T}{|w|}|_{max}=\frac{}{}=0.025$    at break up
